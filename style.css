@@ -13,6 +13,12 @@ body {
   grid-gap: 3rem;
 }
 
+/*
+
+Navigation
+
+*/
+
 nav {
   background-color: white;
 }
@@ -20,6 +26,10 @@ nav {
 nav > .container {
   display: flex;
   justify-content: space-between;
+}
+
+.logo {
+  width: 7rem;
 }
 
 .green {
