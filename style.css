@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 3rem;
+}
+
+nav {
+  background-color: white;
+}
+
+nav > .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.green {
+  background-color: 006241;
+}
+
+.red {
+  background-color: #d50032;
+}
