@@ -66,4 +66,36 @@ For Navigation
 */
 
 @media only screen and (min-width: 772px) {
+  .menu-bar {
+    display: none;
+  }
+
+  .nav-links,
+  .nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav > .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+/* 
+
+Desktop
+
+*/
+
+@media only screen and (min-width: 1024px) {
+  section.green .wrapper {
+    max-width: 54%;
+  }
+
+  .heading {
+    font-size: 3.125rem;
+    line-height: 60px;
+    letter-spacing: 5px;
+  }
 }
