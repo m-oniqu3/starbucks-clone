@@ -1,0 +1,69 @@
+/* Media Queries*/
+
+/*
+
+
+For Tablets
+
+*/
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    width: 3.2rem;
+  }
+
+  .nested {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section.green .wrapper {
+    max-width: 48%;
+  }
+
+  .wrapper {
+    width: 77%;
+  }
+
+  .main-text,
+  .text {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  .main-container :nth-child(3) .nested :nth-child(1),
+  .main-container :nth-child(5) .nested :nth-child(1) {
+    order: 1;
+  }
+
+  /* Fifth section and Sixth Selectors*/
+
+  .main-container :nth-child(5) .heading,
+  .main-container :nth-child(6) .heading {
+    font-size: 1.5rem;
+  }
+
+  .main-container :nth-child(5) .text,
+  .main-container :nth-child(6) .text {
+    font-size: 1.2rem;
+  }
+
+  .main-container :nth-child(6) .text {
+    line-height: 35px;
+  }
+}
+
+/*
+
+For Navigation
+
+*/
+
+@media only screen and (min-width: 772px) {
+}
