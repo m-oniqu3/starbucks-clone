@@ -101,4 +101,8 @@ Desktop
     line-height: 60px;
     letter-spacing: 6px;
   }
+
+  .footer-section {
+    display: none;
+  }
 }

@@ -244,9 +244,8 @@ Footer
   width: 2rem;
 }
 
-.footer > hr {
+hr {
   border: 1px solid rgb(224, 224, 224);
-
   margin: 1.5rem 0;
 }
 
@@ -283,7 +282,53 @@ Footer
   margin: 2rem 0;
   font-weight: bold;
 }
+/* 
 
+Desktop Footer 
+
+*/
+section.footer-desktop {
+  margin-top: 2rem;
+}
+
+section.footer-desktop .container {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.links-desktop {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1rem;
+}
+
+.quick-links {
+  margin: 1rem 0;
+}
+
+.link-title {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.link-list ul {
+  list-style: none;
+}
+
+.link-list ul li {
+  margin: 1rem 0;
+}
+
+.link-list ul li > a {
+  font-size: 0.975rem;
+  color: #5a5a5a;
+  text-decoration: none;
+}
+
+.link-list ul li > a:hover {
+  color: black;
+}
 /*Section colours*/
 
 .green {
