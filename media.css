@@ -89,13 +89,16 @@ Desktop
 */
 
 @media only screen and (min-width: 1024px) {
+  nav .container {
+    padding: 1.375rem 0;
+  }
   section.green .wrapper {
-    max-width: 54%;
+    max-width: 58%;
   }
 
   .heading {
     font-size: 3.125rem;
     line-height: 60px;
-    letter-spacing: 5px;
+    letter-spacing: 6px;
   }
 }

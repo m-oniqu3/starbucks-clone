@@ -76,6 +76,8 @@ ul > li > a {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 span.locate img {
@@ -90,7 +92,8 @@ span.locate img {
 .nav-buttons .btn {
   color: black;
   border: 1px solid black;
-  font-weight: 400;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .nav-buttons .btn-black {
@@ -101,7 +104,8 @@ span.locate img {
   text-align: center;
   text-decoration: none;
   background-color: black;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .menu-bar {
