@@ -2,7 +2,6 @@
 
 /*
 
-
 For Tablets
 
 */
@@ -84,7 +83,7 @@ For Navigation
 
 /* 
 
-Desktop
+For Desktop
 
 */
 
@@ -102,7 +101,18 @@ Desktop
     letter-spacing: 6px;
   }
 
-  .footer-section {
+  section.footer-section {
     display: none;
+  }
+  section.footer-desktop {
+    display: grid;
+  }
+
+  section.footer-desktop .second-links ul {
+    display: flex;
+  }
+  .second-links ul li span.line2 {
+    font-weight: 600;
+    margin: 0 1rem;
   }
 }

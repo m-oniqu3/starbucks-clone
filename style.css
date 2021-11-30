@@ -18,6 +18,20 @@ body {
   margin: 0 auto;
 }
 
+/*Section colours*/
+
+.green {
+  background-color: #006241;
+}
+
+.red {
+  background-color: #d50032;
+}
+
+.light-green {
+  background-color: #d4e9e2;
+}
+
 /*
 
 Navigation
@@ -85,6 +99,8 @@ span.locate img {
   margin-right: 0.5rem;
 }
 
+/* Navigation Buttons */
+
 .nav-buttons > * {
   margin-left: 0.5rem;
 }
@@ -94,6 +110,10 @@ span.locate img {
   border: 1px solid black;
   font-size: 0.8rem;
   font-weight: 600;
+}
+
+.nav-buttons .btn:hover {
+  background-color: #f9f9f9;
 }
 
 .nav-buttons .btn-black {
@@ -106,6 +126,10 @@ span.locate img {
   background-color: black;
   font-size: 0.8rem;
   font-weight: 600;
+}
+
+.nav-buttons .btn-black:hover {
+  opacity: 0.8;
 }
 
 .menu-bar {
@@ -140,6 +164,7 @@ span.locate img {
   letter-spacing: 1px;
   margin: 2rem 0;
 }
+
 .text {
   color: white;
   font-weight: 500;
@@ -174,7 +199,11 @@ span.line:hover {
   color: white;
   font-weight: 600;
   text-align: center;
+}
+
+.btn > a {
   text-decoration: none;
+  color: inherit;
 }
 
 /* Fifth section and Sixth Selectors*/
@@ -252,7 +281,7 @@ hr {
 /* Icons */
 
 .icons {
-  margin: 2.5rem 0 2rem 0;
+  margin: 1rem 0;
 }
 
 .icons > img {
@@ -279,16 +308,19 @@ hr {
 .trademark {
   font-size: 0.8125rem;
   color: rgba(0, 0, 0, 0.58);
-  margin: 2rem 0;
+  margin-bottom: 2rem;
   font-weight: bold;
 }
+
 /* 
 
 Desktop Footer 
 
 */
+
 section.footer-desktop {
   margin-top: 2rem;
+  display: none;
 }
 
 section.footer-desktop .container {
@@ -317,7 +349,7 @@ section.footer-desktop .container {
 }
 
 .link-list ul li {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
 }
 
 .link-list ul li > a {
@@ -328,17 +360,4 @@ section.footer-desktop .container {
 
 .link-list ul li > a:hover {
   color: black;
-}
-/*Section colours*/
-
-.green {
-  background-color: #006241;
-}
-
-.red {
-  background-color: #d50032;
-}
-
-.light-green {
-  background-color: #d4e9e2;
 }
